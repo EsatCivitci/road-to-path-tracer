@@ -1,0 +1,168 @@
+{
+  "Scene": {
+    "BackgroundColor": "0 0 0",
+    "Cameras": {
+      "Camera": {
+        "_id": "1",
+        "_type": "lookAt",
+        "_handedness": "right",
+        "MaxRecursionDepth": "3",
+        "Position": "-0.0439815 -4.12529 0.222539",
+        "Gaze": "0.00688625 0.998505 -0.0542161",
+        "Up": "3.73896e-4 0.0542148 0.998529",
+        "FovY": "45",
+        "NearDistance": "0.1",
+        "ImageResolution": "512 512",
+        "NumSamples": "100",
+        "ImageName": "cornellbox_jaroslav_diffuse.exr",
+        "Tonemap": {
+          "TMO": "Photographic",
+          "TMOOptions": "0.18 1",
+          "Saturation": "1.0",
+          "Gamma": "2.2",
+          "Extension": "_phot.png"
+        }
+      }
+    },
+    "Lights": {
+      "AmbientLight": "0 0 0",
+      "PointLight": {
+        "_id": "1",
+        "Position": "0 -0.5 1",
+        "Intensity": "3.9788735772973833 3.9788735772973833 3.9788735772973833"
+      }
+    },
+    "BRDFs": {
+      "ModifiedPhong": [
+        {
+          "_id": "1",
+          "_normalized": "true",
+          "Exponent": "90"
+        },
+        {
+          "_id": "2",
+          "_normalized": "true",
+          "Exponent": "200"
+        },
+        {
+          "_id": "3",
+          "_normalized": "true",
+          "Exponent": "600"
+        }
+      ]
+    },
+    "Materials": {
+      "Material": [
+        {
+          "_id": "1",
+          "AmbientReflectance": "0 0 0",
+          "DiffuseReflectance": "0 0 0",
+          "SpecularReflectance": "0 0 0",
+          "PhongExponent": "1"
+        },
+        {
+          "_id": "2",
+          "_BRDF": "1",
+          "AmbientReflectance": "0 0 0",
+          "DiffuseReflectance": "0.803922 0.803922 0.803922",
+          "SpecularReflectance": "0 0 0"
+        },
+        {
+          "_id": "3",
+          "_BRDF": "1",
+          "AmbientReflectance": "0 0 0",
+          "DiffuseReflectance": "0.156863 0.803922 0.172549",
+          "SpecularReflectance": "0 0 0"
+        },
+        {
+          "_id": "4",
+          "_BRDF": "1",
+          "AmbientReflectance": "0 0 0",
+          "DiffuseReflectance": "0.803922 0.152941 0.152941",
+          "SpecularReflectance": "0 0 0"
+        },
+        {
+          "_id": "5",
+          "_BRDF": "2",
+          "AmbientReflectance": "0 0 0",
+          "DiffuseReflectance": "0.803922 0.803922 0.152941",
+          "SpecularReflectance": "0 0 0"
+        },
+        {
+          "_id": "6",
+          "_BRDF": "3",
+          "AmbientReflectance": "0 0 0",
+          "DiffuseReflectance": "0.152941 0.152941 0.803922",
+          "SpecularReflectance": "0 0 0"
+        }
+      ]
+    },
+    "VertexData": {
+      "_data": "-1.27029 1.30455 -1.28002 1.28975 1.30455 -1.28002 1.28975 1.30455 1.28002 -1.27029 1.30455 1.28002 -1.27029 -1.25549 -1.28002 1.28975 -1.25549 -1.28002 1.28975 -1.25549 1.28002 -1.27029 -1.25549 1.28002 -0.53885 0.02453 -0.78002 0.55831 0.66454 -0.78002",
+      "_type": "xyz"
+    },
+    "Objects": {
+      "Mesh": [
+        {
+          "_id": "1",
+          "Material": "2",
+          "Faces": {
+            "_data": "0 4 5 5 1 0",
+            "_vertexOffset": "1",
+            "_type": "triangle"
+          }
+        },
+        {
+          "_id": "2",
+          "Material": "3",
+          "Faces": {
+            "_data": "3 7 4 4 0 3",
+            "_vertexOffset": "1",
+            "_type": "triangle"
+          }
+        },
+        {
+          "_id": "3",
+          "Material": "4",
+          "Faces": {
+            "_data": "1 5 6 6 2 1",
+            "_vertexOffset": "1",
+            "_type": "triangle"
+          }
+        },
+        {
+          "_id": "4",
+          "Material": "2",
+          "Faces": {
+            "_data": "0 1 2 2 3 0",
+            "_vertexOffset": "1",
+            "_type": "triangle"
+          }
+        },
+        {
+          "_id": "5",
+          "Material": "2",
+          "Faces": {
+            "_data": "2 6 7 7 3 2",
+            "_vertexOffset": "1",
+            "_type": "triangle"
+          }
+        }
+      ],
+      "Sphere": [
+        {
+          "_id": "1",
+          "Material": "5",
+          "Center": "9",
+          "Radius": "0.5"
+        },
+        {
+          "_id": "2",
+          "Material": "6",
+          "Center": "10",
+          "Radius": "0.5"
+        }
+      ]
+    }
+  }
+}

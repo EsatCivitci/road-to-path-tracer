@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Ray Tracer",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/raytracer",
+            "args": ["inputs/akif_uslu/berserker_smooth.json"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "make build"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+site_name: Ray Tracing Journey
+site_url: https://EsatCivitci.github.io/ray-tracing-journey/
+theme:
+  name: material
+  palette:
+    scheme: slate
+
+nav:
+  - Anasayfa: index.md
+  - HW1 - Basic Ray Tracer: hw1.md
+  - HW2 - BVH & Transformations: hw2.md
+  - HW3 - Multi-Sampling & DoF: hw3.md
+  - HW4 - Textures & Perlin Noise: hw4.md
+  - HW5 - Tone Mapping & Lights: hw5.md
+  - HW6 - Path Tracing & BRDFs: hw6.md
+  - Acceleration Structures Comparison: comparison.md
