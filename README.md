@@ -1,12 +1,6 @@
 # Ray Tracing Journey
 
-
-
 https://github.com/user-attachments/assets/a79ddd33-c5c1-4bcd-9dd0-7db732005228
-
-
-
-![dragon_new_with_spot.png](docs/assets/images/hw5/dragon_new_with_spot.png)
 
 Welcome to my portfolio and technical blog documenting my journey through the **Advanced Ray Tracing** course projects. This repository showcases the step-by-step evolution of a custom ray tracer—starting from a basic intersection engine up to a full path tracer equipped with advanced acceleration structures, realistic materials, and complex lighting models.
 
@@ -24,3 +18,6 @@ You can navigate through the detailed blog posts and technical reports for each 
 
 ---
 *Feel free to explore the individual homework directories for source code and implementation details.*
+
+
+![dragon_new_with_spot.png](docs/assets/images/hw5/dragon_new_with_spot.png)
