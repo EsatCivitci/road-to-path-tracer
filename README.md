@@ -1,6 +1,10 @@
 # Ray Tracing Journey
 
-![Tunnel of Doom Animation](docs/assets/images/tunnel_of_doom.gif)
+
+
+https://github.com/user-attachments/assets/a79ddd33-c5c1-4bcd-9dd0-7db732005228
+
+
 
 ![dragon_new_with_spot.png](docs/assets/images/hw5/dragon_new_with_spot.png)
 
