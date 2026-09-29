@@ -1,5 +1,7 @@
 # Ray Tracing Journey
 
+![Tunnel of Doom Animation](docs/assets/images/tunnel_of_doom.gif)
+
 ![dragon_new_with_spot.png](docs/assets/images/hw5/dragon_new_with_spot.png)
 
 Welcome to my portfolio and technical blog documenting my journey through the **Advanced Ray Tracing** course projects. This repository showcases the step-by-step evolution of a custom ray tracer—starting from a basic intersection engine up to a full path tracer equipped with advanced acceleration structures, realistic materials, and complex lighting models.
