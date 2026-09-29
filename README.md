@@ -2,6 +2,11 @@
 
 https://github.com/user-attachments/assets/a79ddd33-c5c1-4bcd-9dd0-7db732005228
 
+<video controls autoplay muted loop width="100%">
+  <source src="../assets/videos/tunnel_of_doom.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 Welcome to my portfolio and technical blog documenting my journey through the **Advanced Ray Tracing** course projects. This repository showcases the step-by-step evolution of a custom ray tracer—starting from a basic intersection engine up to a full path tracer equipped with advanced acceleration structures, realistic materials, and complex lighting models.
 
 ## Project Structure & Roadmap
